@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-burgundy-500: #7B1E34;
+  --color-burgundy-900: #4A0E1C;
+  --color-gold-400: #D9B878;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A88748;
+  --color-cream-50: #FDFAF5;
+  --color-cream-100: #F9F6F0;
+  --color-cream-200: #EBE5D9;
+  --color-wood-800: #54331C;
+  --color-wood-900: #3D2314;
+  --color-wood-950: #1A110D;
+
+  --color-background: var(--color-wood-950);
+  --color-foreground: var(--color-cream-50);
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+@layer base {
+  body {
+    @apply bg-wood-950 text-cream-50 antialiased selection:bg-gold-500 selection:text-wood-950;
+  }
+}
+
+/* Custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-wood-950;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-burgundy-900 rounded-full border border-wood-800;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-burgundy-500;
+}
+
+/* Utilities for glassmorphism */
+@layer utilities {
+  .glass {
+    @apply bg-wood-950/70 backdrop-blur-md border border-wood-800/50 shadow-xl;
+  }
+}
