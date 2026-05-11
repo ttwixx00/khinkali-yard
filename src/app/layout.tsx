@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Хинкальный дворик | Премиум доставка",
     description: "Настоящая грузинская кухня с доставкой прямо к вашему столу.",
-    images: ["/images/hero_georgian_restaurant.png"],
+    images: ["/khinkali-yard/images/hero_georgian_restaurant.png"],
   }
 };
 

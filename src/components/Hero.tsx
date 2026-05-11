@@ -17,7 +17,7 @@ export function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/hero_georgian_restaurant.png')",
+            backgroundImage: "url('/khinkali-yard/images/hero_georgian_restaurant.png')",
           }}
         />
         {/* Dark overlay for text readability */}

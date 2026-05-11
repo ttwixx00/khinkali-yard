@@ -24,7 +24,7 @@ const menuItems = [
     category: "Хинкали",
     description: "Традиционные грузинские хинкали с рубленой говядиной, свининой, свежей зеленью и специями. Подаются горячими.",
     price: 350,
-    image: "/images/food_khinkali.png",
+    image: "/khinkali-yard/images/food_khinkali.png",
   },
   {
     id: "khinkali-2",
@@ -32,7 +32,7 @@ const menuItems = [
     category: "Хинкали",
     description: "Сочные хинкали с начинкой из рубленой баранины с добавлением грузинских специй и кинзы.",
     price: 390,
-    image: "/images/food_khinkali.png",
+    image: "/khinkali-yard/images/food_khinkali.png",
   },
   {
     id: "khinkali-3",
@@ -40,7 +40,7 @@ const menuItems = [
     category: "Хинкали",
     description: "Нежные хинкали с тягучим грузинским сыром сулугуни. Идеально подходят для вегетарианцев.",
     price: 330,
-    image: "/images/food_khinkali.png",
+    image: "/khinkali-yard/images/food_khinkali.png",
   },
 
   // Хачапури
@@ -50,7 +50,7 @@ const menuItems = [
     category: "Хачапури",
     description: "Знаменитая лодочка из воздушного теста с начинкой из тягучего сыра сулугуни, фермерским маслом и желтком.",
     price: 550,
-    image: "/images/food_khachapuri.png",
+    image: "/khinkali-yard/images/food_khachapuri.png",
   },
   {
     id: "khachapuri-2",
@@ -58,7 +58,7 @@ const menuItems = [
     category: "Хачапури",
     description: "Круглый пирог с двойной порцией сыра: внутри и снаружи. Запекается до золотистой корочки.",
     price: 580,
-    image: "/images/food_khachapuri.png",
+    image: "/khinkali-yard/images/food_khachapuri.png",
   },
   {
     id: "khachapuri-3",
@@ -66,7 +66,7 @@ const menuItems = [
     category: "Хачапури",
     description: "Сыр сулугуни, обернутый в нежное слоеное тесто, запеченный на углях до хрустящей корочки.",
     price: 450,
-    image: "/images/food_khachapuri.png",
+    image: "/khinkali-yard/images/food_khachapuri.png",
   },
 
   // Шашлык
@@ -76,7 +76,7 @@ const menuItems = [
     category: "Шашлык",
     description: "Сочные кусочки маринованной баранины, обжаренные на углях. Подаются с маринованным луком и соусом сацебели.",
     price: 850,
-    image: "/images/food_shashlik.png",
+    image: "/khinkali-yard/images/food_shashlik.png",
   },
   {
     id: "shashlik-2",
@@ -84,7 +84,7 @@ const menuItems = [
     category: "Шашлык",
     description: "Нежнейшая свинина, маринованная по секретному рецепту нашего шефа. Готовится на открытом огне.",
     price: 650,
-    image: "/images/food_shashlik.png",
+    image: "/khinkali-yard/images/food_shashlik.png",
   },
   {
     id: "shashlik-3",
@@ -92,7 +92,7 @@ const menuItems = [
     category: "Шашлык",
     description: "Сочные кусочки куриного бедра, запеченные до золотистой корочки. Подаются со свежей зеленью.",
     price: 550,
-    image: "/images/food_shashlik.png",
+    image: "/khinkali-yard/images/food_shashlik.png",
   },
 
   // Супы
@@ -102,7 +102,7 @@ const menuItems = [
     category: "Супы",
     description: "Наваристый острый суп с говядиной, рисом, грецкими орехами и ароматными кавказскими специями.",
     price: 450,
-    image: "/images/food_soup_kharcho.png",
+    image: "/khinkali-yard/images/food_soup_kharcho.png",
   },
   {
     id: "soup-2",
@@ -110,7 +110,7 @@ const menuItems = [
     category: "Супы",
     description: "Традиционный грузинский куриный суп с легкой кислинкой, свежей зеленью и яичной заправкой.",
     price: 390,
-    image: "/images/food_soup_kharcho.png",
+    image: "/khinkali-yard/images/food_soup_kharcho.png",
   },
   {
     id: "soup-3",
@@ -118,7 +118,7 @@ const menuItems = [
     category: "Супы",
     description: "Наваристый бульон из говяжьих ножек, который томится всю ночь. Подается с чесноком.",
     price: 550,
-    image: "/images/food_soup_kharcho.png",
+    image: "/khinkali-yard/images/food_soup_kharcho.png",
   },
 
   // Закуски
@@ -128,7 +128,7 @@ const menuItems = [
     category: "Закуски",
     description: "Традиционная закуска из шпината, перетертого с грецкими орехами, чесноком и зернами граната.",
     price: 380,
-    image: "/images/food_snack_pkhali.png",
+    image: "/khinkali-yard/images/food_snack_pkhali.png",
   },
   {
     id: "snack-2",
@@ -136,7 +136,7 @@ const menuItems = [
     category: "Закуски",
     description: "Обжаренные ломтики баклажана с начинкой из грецкого ореха, чеснока и грузинских специй.",
     price: 420,
-    image: "/images/food_snack_pkhali.png",
+    image: "/khinkali-yard/images/food_snack_pkhali.png",
   },
   {
     id: "snack-3",
@@ -144,7 +144,7 @@ const menuItems = [
     category: "Закуски",
     description: "Нежное куриное филе под густым соусом из перетертых грецких орехов, чеснока и специй.",
     price: 480,
-    image: "/images/food_snack_pkhali.png",
+    image: "/khinkali-yard/images/food_snack_pkhali.png",
   },
 
   // Десерты
@@ -154,7 +154,7 @@ const menuItems = [
     category: "Десерты",
     description: "Домашняя чурчхела из натурального виноградного сока с отборными грецкими орехами.",
     price: 250,
-    image: "/images/food_dessert_churchkhela.png",
+    image: "/khinkali-yard/images/food_dessert_churchkhela.png",
   },
   {
     id: "dessert-2",
@@ -162,7 +162,7 @@ const menuItems = [
     category: "Десерты",
     description: "Многослойный десерт из тончайшего теста с медом и обилием дробленых орехов.",
     price: 350,
-    image: "/images/food_dessert_churchkhela.png",
+    image: "/khinkali-yard/images/food_dessert_churchkhela.png",
   },
   {
     id: "dessert-3",
@@ -170,7 +170,7 @@ const menuItems = [
     category: "Десерты",
     description: "Традиционный десерт из загущенного виноградного сока, украшенный грецкими орехами.",
     price: 280,
-    image: "/images/food_dessert_churchkhela.png",
+    image: "/khinkali-yard/images/food_dessert_churchkhela.png",
   },
 
   // Напитки
@@ -180,7 +180,7 @@ const menuItems = [
     category: "Напитки",
     description: "Красное полусладкое вино с ярким фруктовым ароматом и бархатистым вкусом. Бокал 150мл.",
     price: 400,
-    image: "/images/drink_wine_glass.png",
+    image: "/khinkali-yard/images/drink_wine_glass.png",
   },
   {
     id: "drink-2",
@@ -188,7 +188,7 @@ const menuItems = [
     category: "Напитки",
     description: "Освежающий грузинский лимонад, приготовленный из свежего эстрагона с лимоном.",
     price: 250,
-    image: "/images/drink_wine_glass.png",
+    image: "/khinkali-yard/images/drink_wine_glass.png",
   },
   {
     id: "drink-3",
@@ -196,7 +196,7 @@ const menuItems = [
     category: "Напитки",
     description: "Ароматный черный чай из Гурии. Подается в чайнике 500мл с чабрецом и лимоном.",
     price: 300,
-    image: "/images/drink_wine_glass.png",
+    image: "/khinkali-yard/images/drink_wine_glass.png",
   },
 ];
 
